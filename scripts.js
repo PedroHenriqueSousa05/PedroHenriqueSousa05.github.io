@@ -4,7 +4,7 @@ let paginaAtual = 1;
 
 function fetchDataAndDisplay(pagina) {
   fetch(
-    "c229-2804-d45-3725-9b00-7936-7aef-8b7a-ac40.ngrok-free.app/integracoes/pedidos/detalhes"
+    "https://c229-2804-d45-3725-9b00-7936-7aef-8b7a-ac40.ngrok-free.app/integracoes/pedidos/detalhes"
   )
     .then((response) => {
       if (!response.ok) {
