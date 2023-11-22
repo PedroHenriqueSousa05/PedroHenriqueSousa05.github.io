@@ -3,7 +3,9 @@ const totalMaximoPedidos = 100;
 let paginaAtual = 1;
 
 function fetchDataAndDisplay(pagina) {
-  fetch("http://localhost:3000/integracoes/pedidos/detalhes")
+  fetch(
+    "https://c229-2804-d45-3725-9b00-7936-7aef-8b7a-ac40.ngrok-free.app/integracoes/pedidos/detalhes"
+  )
     .then((response) => {
       if (!response.ok) {
         throw new Error("Erro ao buscar dados");
